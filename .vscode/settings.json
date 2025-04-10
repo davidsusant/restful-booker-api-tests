@@ -1,0 +1,20 @@
+{
+    "ruby.useLanguageServer": true,
+    "ruby.lint": {
+      "rubocop": true,
+      "reek": true
+    },
+    "ruby.format": "rubocop",
+    "ruby.intellisense": "solargraph",
+    "cucumberautocomplete.stepsInvariants": true,
+    "cucumberautocomplete.smartSnippets": true,
+    "cucumberautocomplete.steps": ["features/**/*.rb"],
+    "[ruby]": {
+      "editor.formatOnSave": true
+    },
+    "[feature]": {
+      "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+    },
+    "solargraph.commandPath": "/Users/davidsusanto/.rbenv/versions/3.4.1/bin/solargraph",
+    "solargraph.useBundler": false // Set to true if using project-specific installation
+  }
