@@ -3,6 +3,7 @@ require 'httparty'
 require 'json'
 require 'faker'
 require 'dotenv/load'
+require 'allure-cucumber'
 
 Dotenv.load
 

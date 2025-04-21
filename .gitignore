@@ -13,3 +13,5 @@ tmp/
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/allure-results
+/.vscode
