@@ -1,6 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    allure-cucumber (2.26.0)
+      allure-ruby-commons (= 2.26.0)
+      csv (>= 3.0, < 4.0)
+      cucumber (>= 4.0.0, < 10)
+    allure-ruby-commons (2.26.0)
+      mime-types (>= 3.3, < 4)
+      require_all (>= 2, < 4)
+      rspec-expectations (~> 3.12)
     ast (2.4.3)
     backport (1.2.0)
     base64 (0.2.0)
@@ -64,6 +72,10 @@ GEM
     language_server-protocol (3.17.0.4)
     lint_roller (1.1.0)
     logger (1.7.0)
+    mime-types (3.6.2)
+      logger
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2025.0415)
     mini_mime (1.1.5)
     mini_portile2 (2.8.8)
     multi_test (1.1.0)
@@ -101,6 +113,7 @@ GEM
     rbs (3.9.2)
       logger
     regexp_parser (2.10.0)
+    require_all (3.0.0)
     reverse_markdown (3.0.0)
       nokogiri
     rexml (3.4.1)
@@ -176,6 +189,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  allure-cucumber
   base64
   cucumber
   dotenv

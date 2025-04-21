@@ -9,6 +9,7 @@ gem 'faker'
 gem 'dotenv'
 gem 'rake'
 gem 'base64'
+gem 'allure-cucumber'
 
 group :development do
   gem 'solargraph'
